@@ -11,7 +11,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
 }
 .banner-text {
   padding: 15% 20%;
@@ -104,7 +103,7 @@ body {
 /* Our Donate Plan Section CSS */
 .donatePlan-container {
   padding: 0 5%;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 .donatePlan-wrapper {
   display: flex;
@@ -142,7 +141,6 @@ body {
 
 /* help homeless people section CSS */
 .homelessPeople-container {
-  margin-top: 100x;
   margin-bottom: 100px;
   display: flex;
 }
@@ -188,14 +186,15 @@ body {
   margin-bottom: 100px;
 }
 .contact-form {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-.contact-form form {
-  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: #fff4d6;
   padding: 80px 80px;
+}
+
+form {
+  display: flex;
+  padding-left: 18%;
 }
 .coantct-email {
   width: 50%;
