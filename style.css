@@ -140,6 +140,49 @@ body {
   border-radius: 5px;
 }
 
+/* help homeless people section CSS */
+.homelessPeople-container {
+  margin-top: 100x;
+  margin-bottom: 100px;
+  display: flex;
+}
+.leftSide-text {
+  background-color: #f2f2f2;
+  width: 40%;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+.leftSide-text h1 {
+  font-size: 45px;
+  color: #121212;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.leftSide-text p {
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+  line-height: 25px;
+}
+.contribute-button {
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5959;
+  cursor: pointer;
+}
+.rightSide-img {
+  width: 60%;
+}
+.rightSide-img img {
+  width: 100%;
+  display: block;
+}
+
 /* contact section CSS*/
 .contact-container {
   margin-bottom: 100px;
@@ -153,7 +196,6 @@ body {
   display: flex;
   background-color: #fff4d6;
   padding: 80px 80px;
-  justify-content: right;
 }
 .coantct-email {
   width: 50%;
